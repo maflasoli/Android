@@ -20,5 +20,6 @@ public class MainActivity extends AppCompatActivity {
         TextView tvtela = findViewById(R.id.tvResultado);
         int sorte = new Random().nextInt(11); // Tem que ser 11 no netInt porque ele começa a contar do 0
         tvtela.setText("Randomico "+sorte);
+
     }
 }
